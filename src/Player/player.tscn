@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://dv18551n6xqby"]
+
+[ext_resource type="Texture2D" uid="uid://2jx7xmnvhhuw" path="res://src/Art/spiderneymar.png" id="1_wj25i"]
+
+[node name="Player" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+texture = ExtResource("1_wj25i")
+hframes = 2
+vframes = 2
